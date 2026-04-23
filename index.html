@@ -1,23 +1,45 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Frontend</title>
-    <link rel="stylesheet" href="styles/main.css">
-</head>
-<body>
-    <header>
-        <h1>Welcome to Our Online Store</h1>
-    </header>
-    <script src="scripts/app.js"></script>
-</body>
-</html>
-🔹 Open styles/main.css and add basic styles:
+<!-- PREMIUM HEADER START -->
+<header class="header">
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-}
+    <!-- Logo -->
+    <div class="logo">
+        <h2>🛍️ ShopEasy</h2>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav-menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Right Section -->
+    <div class="header-right">
+
+        <!-- Search -->
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>
+                <i class="fa fa-search"></i>
+            </button>
+        </div>
+
+        <!-- Cart -->
+        <div class="cart">
+            <i class="fa fa-shopping-cart"></i>
+            <span class="cart-count">0</span>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger">
+            <i class="fa fa-bars"></i>
+        </div>
+
+    </div>
+
+</header>
+<!-- PREMIUM HEADER END -->
